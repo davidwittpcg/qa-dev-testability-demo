@@ -29,7 +29,7 @@ function App() {
       </button>
 
       {/* VERSION A (vor Refactor): UL/LI */}
-      {/*
+      {
         <ul style={{ listStyle: "none", paddingLeft: 0 }}>
           {todos.map((todo, index) => (
             <li
@@ -55,10 +55,10 @@ function App() {
             </li>
           ))}
         </ul>
-      */}
+      }
 
       {/*VERSION B (nach Refactor): DIV Cards*/}
-      {
+      {/*
         <div data-testid="todo-list">
           {todos.map((todo, index) => (
             <div
@@ -86,7 +86,7 @@ function App() {
             </div>
           ))}
         </div>
-      }
+      */}
     </div>
   );
 }
